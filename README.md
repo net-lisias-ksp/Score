@@ -1,6 +1,6 @@
 # Score! /L
 
-A Utility for automating computing Scores for Challenges.
+A Utility to automate computing Scores for Challenges.
 
 ## In a Hurry
  
