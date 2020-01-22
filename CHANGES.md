@@ -1,5 +1,8 @@
 # Score! :: Changes
 
+* 2020-0122: 0.0.1.1 (Lisias) for KSP >= 1.2.2 ALPHA
+	+ Fixed the Speed reading (use the Surface, Luke!)
+	+ Added an entry on Known Issues.
 * 2020-0122: 0.0.1.0 (Lisias) for KSP >= 1.2.2 ALPHA
 	+ First Alpha Release as Proof of Concept
 	+ GUI is minimalist
