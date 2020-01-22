@@ -75,7 +75,9 @@ namespace Score.Challenges
 		private void UpdateVessel()
 		{
 			this.current_weight = this.vessel.GetTotalMass();
-			this.current_speed = this.vessel.indicatedAirSpeed;
+			//this.current_speed = this.vessel.horizontalSrfSpeed; // Nope, this diverges from the Surface reading from the NavBall
+			//this.current_speed = Math.Sqrt(this.vessel.srfSpeed * this.vessel.srfSpeed - this.vessel.verticalSpeed * this.vessel.verticalSpeed); // Neither. This is a workaround for KSP 1.0.x
+			this.current_speed = this.vessel.srfSpeed; // This one works!
 			this.current_score = this.current_speed * this.current_weight / this.engines_count;
 			log.dbg("Current score for {0} is {1}.", this.vessel, this.current_score);
 		}
