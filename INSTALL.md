@@ -1,6 +1,6 @@
 # Score!
 
-A Utility for automating computing Scores for Challenges.
+A Utility to automate computing Scores for Challenges.
 
 
 ## Installation Instructions
