@@ -103,8 +103,10 @@ namespace Score
 		private void ToggleOff()
 		{
 			Log.dbg("Toggled Off");
-			this.challenge.Finish();
 			this.is_active = false;
+			this.challenge.Finish();
+			this.challenge = null;
+			this.scoreWindow.Finish();
 		}
 		#endregion
 	}
