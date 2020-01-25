@@ -1,5 +1,7 @@
 # Score! :: Changes
 
+* 2020-0125: 0.0.1.2 (Lisias) for KSP >= 1.2.2 ALPHA
+	+ Fixed a mistake on handling the Window life cycle.
 * 2020-0122: 0.0.1.1 (Lisias) for KSP >= 1.2.2 ALPHA
 	+ Fixed the Speed reading (use the Surface, Luke!)
 	+ Added an entry on Known Issues.
