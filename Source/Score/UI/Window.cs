@@ -72,7 +72,7 @@ namespace Score.UI
 			}
 		}
 
-		private static bool initialized = false;
+		private bool initialized = false;
 
 		internal bool VisibleGUI { get; set; } = true;
 
@@ -104,7 +104,7 @@ namespace Score.UI
 
 		protected bool IsDeactivated()
 		{
-			if (!Window.initialized) this.Initialise();
+			if (!this.initialized) this.Initialise();
 
 			return !this.VisibleGUI;
 		}
@@ -117,8 +117,15 @@ namespace Score.UI
 
 			this.windowRect = this.calculateWindow();
 
-			initialized = true;
+			this.initialized = true;
 		}
+
+		public void Finish()
+		{
+			// Flags the Window are not initialized, as everything needs to be reset when parent gets the focus again.
+			this.initialized = false;
+		}
+
 
 		private void Draw(int windowId)
 		{
