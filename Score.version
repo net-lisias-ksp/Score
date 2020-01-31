@@ -1,9 +1,9 @@
 {
 	"NAME"		: "Score!",
-	"URL"		: "https://raw.githubusercontent.com/net-lisias-ksp/Score/KSPAPIExtensions.version",
+	"URL"		: "https://raw.githubusercontent.com/net-lisias-ksp/Score/master/Score.version",
 	"DOWNLOAD"	: "https://github.com/net-lisias-ksp/Score/releases",
-	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-ksp/Score/CHANGE_LOG.md",
-	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-ksp/ScoreKSPAPIExtensions/CHANGES.md",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-ksp/Score/master/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-ksp/Score/master/CHANGES.md",
 	"VERSION":{
 		"MAJOR":0,
 		"MINOR":0,
